@@ -1,0 +1,66 @@
+/* eksternal css */
+body{
+    background-color: darkgrey;
+    background-size:contain ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: solid;
+}
+img{
+    height: 190px;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;  
+    animation-fill-mode: both;
+}
+.name{
+    background-color:gray;
+    padding: 1px;
+    margin: 1px;
+    text-align: center;
+    position: relative;
+    animation-name: what;
+    animation-duration: 3s;  
+    animation-fill-mode: both;
+}
+button{
+    background-color: grey;
+}
+p{
+    position: relative;
+    animation-name: what;
+    animation-duration: 3s;  
+    animation-fill-mode: both;
+}
+@keyframes example {
+    from {right: 100%;}
+    to {right: 0px}
+}
+@keyframes what {
+    from {top: 1000px}
+    to {top: 0px}
+}
+.p{
+    font-weight: normal;
+    font-size: normal;
+    display: flex;
+}
+.p >p{
+    margin: 20px;
+    margin-top: 60px;
+    width: 60%;
+}
+ul{
+    position: relative;
+    animation-name: what;
+    animation-duration: 3s;  
+    animation-fill-mode: both;
+}
+table{
+    position: relative;
+    animation-name: what;
+    animation-duration: 3s;  
+    animation-fill-mode: both;
+}
